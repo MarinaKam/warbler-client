@@ -24,7 +24,7 @@ const MessageItem = ({ text,
             </span>
             <p>{text}</p>
             {isCorrectUser &&
-                <a className="btn btn-danger" onClick={removeMessage}>
+                <a href={false} className="btn btn-danger" onClick={removeMessage}>
                     Delete
                 </a>}
 
